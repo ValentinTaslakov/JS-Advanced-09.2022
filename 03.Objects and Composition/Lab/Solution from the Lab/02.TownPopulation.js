@@ -18,9 +18,9 @@ function solve(arr){
         towns[name] = population;   
         //Присвоявам поле към обекта със стойност     
     }
-
+console.log(towns);
     for (const town in towns) {
-        console.log(`${town} : ${towns[town]}`)
+      //  console.log(`${town} : ${towns[town]}`)
         //С ForIn loop взимам полетата от обекта(в случая асосиативен масив)
         //взимайки town принтирам ключа на полето , когато го взема 
         //като индекс от масива се принтира стойноста на полето.

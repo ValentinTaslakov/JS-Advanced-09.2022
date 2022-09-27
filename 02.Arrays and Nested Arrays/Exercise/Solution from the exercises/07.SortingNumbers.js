@@ -10,7 +10,7 @@ function solve(arr){
         res.push(big);
         
     }
-console.log(sortArr);
+
     return res;
 }
 
