@@ -15,6 +15,7 @@ function lowestPrice(input) {
             result[product] = { price, town };
             continue;
         }
+
     }
 
     for (const key in result) {
