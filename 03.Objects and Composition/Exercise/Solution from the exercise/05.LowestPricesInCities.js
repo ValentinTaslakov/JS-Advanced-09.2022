@@ -15,12 +15,10 @@ function lowestPrice(input) {
             result[product] = { price, town };
             continue;
         }
-
     }
 
     for (const key in result) {
-        console.log(`${key} -> ${result[key]['price']} (${result[key]['town']})`)
-        
+        console.log(`${key} -> ${result[key]['price']} (${result[key]['town']})`) 
     };
 }
 
