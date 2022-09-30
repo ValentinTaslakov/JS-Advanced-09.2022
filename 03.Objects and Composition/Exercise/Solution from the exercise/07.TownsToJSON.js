@@ -9,8 +9,8 @@ function townToJson(arr){
        let Latitude = parseFloat(str[1]).toFixed(2);
        let Longitude = parseFloat(str[2]).toFixed(2);
        
-       //Latitude = Number(Latitude);
-       //Longitude = Number(Longitude);
+       Latitude = Number(Latitude);
+       Longitude = Number(Longitude);
 
        result.push({Town, Latitude, Longitude})
     }
