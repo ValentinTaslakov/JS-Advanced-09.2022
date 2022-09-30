@@ -9,7 +9,7 @@ function extract(content) {
       match = pattern.exec(para);
     }
   
-    para =  result.join('; ');
+    return result.join('; ');
   
 }
 
