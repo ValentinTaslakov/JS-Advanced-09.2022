@@ -9,7 +9,7 @@ function solve() {
 
       for (const rest of input) {
          let [name, listOfWorkers] = rest.split(" - ");
-        // let obj = getObject(rest);
+        
          if(restaurants.find(e => e.name === name)){
             let restaurantToUpdate =  restaurants.find(e => e.name === name);
             let currentWorkers = getWorkers(listOfWorkers.split(", "));
