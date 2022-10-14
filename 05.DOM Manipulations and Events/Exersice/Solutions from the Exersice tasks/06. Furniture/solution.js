@@ -1,6 +1,14 @@
 function solve() {
-
-  document.querySelector("#exercise textarea").value = getJson(furniture.json);
+  
+  //impoprt.data.from("furniture.json");
+  document.querySelector("#exercise textarea").value ;
+  console.log(loadText("C:\Users\Valio\Desktop\JS Advanced 09.2022\05.DOM Manipulations and Events\Exersice\Solutions from the Exersice tasks\06. Furniture\furniture.json"));
+  async function loadText(url) {
+    JSON = await fetch(url);
+    //awaits for text.text() prop 
+    //and then sends it to readText()
+    readJson(await text.text());
+}
 }
 
 //function solve() {
