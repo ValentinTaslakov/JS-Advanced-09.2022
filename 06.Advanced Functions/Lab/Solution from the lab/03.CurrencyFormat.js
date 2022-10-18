@@ -9,8 +9,8 @@ return (value) => formatter(separator,
          value);
 }
 //подаваме разделителя, паричния символ, булева с която казваме къде да е паризния символ,
-//, функция която пряви форматирането
-let dollarFormatter = createFormatter(',', '$', false, currencyFormatter);
+//, функция която прaви форматирането
+let dollarFormatter = createFormatter(',', '$', true, currencyFormatter);
 // така присвоена функцията към променливата ние сме създали нова функция която 
 //е настроена за долари, и при извикване на dollarFormatter трябва да подадем само
 //стойноста която искаме да форматираме 
